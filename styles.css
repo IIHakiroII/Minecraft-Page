@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body-introduction-container {
+  background-color: rgb(15, 28, 54);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  margin-top: 10px;
+}
+
+.minecraft-logo-container {
+  margin-left: 110px;
+}
+
+.minecraft-logo {
+  width: 60px;
+  height: 70px;
+}
+
+.link {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 10px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.image-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.header-description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.image {
+  margin: 50%;
+}
+
+.p-first {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.description-button {
+  background-color: rgb(45, 153, 45);
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px rgb(45, 153, 45);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+}
+
+.row-of-green-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 100px;
+  align-items: center;
+}
+
+.box-green {
+  border: 2px solid rgb(45, 153, 45);
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.mobs-information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-second {
+  text-align: center;
+  font-size: 18px;
+}
+
+.phrase-text-container {
+  background-color: #E5E7EB;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  text-align: center;
+}
+
+.author {
+  font-size: 18px;
+  text-align: end;
+  color: #1F2937;
+}
+
+.author-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 330px;
+}
+
+.register-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-green-register {
+  background-color: rgb(45, 153, 45);
+  width: 75%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-register {
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+}
+.sign-up-paragraph{
+  color: white;
+  font-size: 18px;
+}
+
+.right-register {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button-register {
+  background-color: rgb(45, 153, 45);
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 75px;
+  align-items: center;
+}
