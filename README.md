@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# WikiCraft - Landing Page
 
 > One paragraph statement about the project.
 
