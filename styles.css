@@ -152,6 +152,8 @@ h3 {
   height: 40%;
   display: flex;
   flex-direction: row;
+  border-radius: 8px;
+  border: 1px solid rgb(45, 153, 45);
 }
 
 .left-register {
