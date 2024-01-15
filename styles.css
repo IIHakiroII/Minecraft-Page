@@ -78,10 +78,10 @@ h1{
 .description-button {
   background-color: rgb(45, 153, 45);
   color: white;
-  width: 100px;
-  height: 40px;
+  width: 82px;
+  height: 32px;
   border: 1px rgb(45, 153, 45);
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 h2 {
