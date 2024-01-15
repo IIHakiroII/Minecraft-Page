@@ -1,23 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .body-introduction-container {
-  background-color: rgb(15, 28, 54);
+  background-color: #1F2937;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-links {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-right: 70px;
 }
 
 .minecraft-logo-container {
-  margin-left: 110px;
+  margin-left: 115px;
+  margin-top: 6px;
 }
 
 .minecraft-logo {
@@ -29,6 +37,9 @@
   font-size: 18px;
   color: #E5E7EB;
   margin: 10px;
+  margin-left: 1px;
+  text-decoration: none;
+  margin-top: 4px;
 }
 
 h1{
@@ -43,28 +54,24 @@ h1{
   margin: 50px;
 }
 
-.image-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-}
-
 .header-description {
   display: flex;
   flex-direction: column;
   width: 50%;
   justify-content: center;
   margin-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 
-.image {
-  margin: 50%;
+.image-description {
+  padding-top: 42px;
+  padding-left: 25px;
+  padding-bottom: 80px;
 }
 
 .p-first {
-  font-size: 18px;
+  font-size: 16px;
   color: #E5E7EB;
 }
 
@@ -94,10 +101,13 @@ h2 {
 }
 
 .box-green {
-  border: 2px solid rgb(45, 153, 45);
-  width: 200px;
+  border: 3px solid rgb(45, 153, 45);
+  width: 180px;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 .mobs-information-container {
@@ -113,7 +123,7 @@ h2 {
 
 .phrase-text-container {
   background-color: #E5E7EB;
-  height: 500px;
+  height: 485px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,7 +134,7 @@ h3 {
   font-style: italic;
   font-weight: lighter;
   color: #1F2937;
-  text-align: center;
+  margin-left: 187px;
 }
 
 .author {
@@ -170,7 +180,7 @@ h4 {
 }
 .sign-up-paragraph{
   color: white;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .right-register {
@@ -182,11 +192,11 @@ h4 {
 .button-register {
   background-color: rgb(45, 153, 45);
   color: white;
-  width: 100px;
-  height: 40px;
+  width: 80px;
+  height: 34px;
   border: 1px solid #FFFFFF;
-  border-radius: 10px;
-  margin-right: 20px;
+  border-radius: 7px;
+  margin-right: 80px;
 }
 
 .copyright-container {
